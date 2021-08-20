@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('hi one moe time there');
+    res.send('This file is currently used for jenkins ci/cd');
 });
 
 app.listen('8081', () => {
